@@ -2,20 +2,30 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyi
 
-# User data files
+# User data
 targets.txt
 proxies.txt
-user_agents.txt
+shein_cookies.txt
 
 # Virtual environment
 venv/
 env/
+.venv/
+.env/
 
 # OS files
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
 
-# IDE files
+# IDE
 .vscode/
 .idea/
+*.sublime-*
+
+# Logs
+*.log
+output/
